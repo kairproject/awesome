@@ -1,0 +1,66 @@
+### Manipulator related RL papers
+
+- T. Haarnoja, et al., Soft Actor-Critic Algorithms and Applications, arXiv:1812.05905, 2018. [[Paper]](https://arxiv.org/pdf/1812.05905.pdf) [[Site]](https://sites.google.com/view/sac-and-applications/)
+	- Env(real): Quadrupedal locomotion, Dexterous hand manipulation
+	- Algorithm: DDPG, TRPO, TD3, PPO
+- A. R. Mahmood, et al., Setting up a Reinforcement Learning Task with a Real-World Robot, arXiv:1803.07067, 2018. [[Paper]](https://arxiv.org/pdf/1803.07067.pdf) [[Video]](https://www.youtube.com/watch?v=ZVIxt2rt1_4&feature=youtu.be)
+	- Env(real): UR5 Reacher 6D(6-DOF)
+	- Task: reaching
+	- Algorithm: TRPO
+- X. B. Peng, et al., Sim-to-Real Transfer of Robotic Control with Dynamics Randomization, ICRA, 2018. [[Paper]](https://xbpeng.github.io/projects/SimToReal/2018_SimToReal.pdf)
+	- Env(real): 7-DOF Fetch Robotics arm
+	- Env(sim): MuJoCo model(customized)
+	- Task: puck pushing
+	- Algorithm: HER + RDPG(Recurrent Deterministic Policy Gradient)
+- R. Houthooft, et al., Evolved Policy Gradients, NeurIPS, 2018. [[Paper]](https://papers.nips.cc/paper/7785-evolved-policy-gradients.pdf)
+	- Env(sim): RandomReacher, Fetcher
+	- Task: reaching, fetching
+	- Algorithm: PPO, EPG
+- M. Andrychowicz, et al., Hindsight Experience Replay, NeurIPS, 2017. [[Paper]](https://papers.nips.cc/paper/7090-hindsight-experience-replay.pdf) [[Video]](https://www.youtube.com/watch?v=Dz_HuzgMxzo#action=share)
+	- Env(real): 7-DOF Fetch Robotics arm
+	- Env(sim): pushing, sliding, pick-and-place
+	- Algorithm: DDPG, DDPG + HER
+- D. Quillen, et al., Deep Reinforcement Learning for Vision-Based Robotic Grasping: A Simulated Comparative Evaluation of Off-Policy Methods, arXiv:1802.10264, 2018. [[Paper]](https://arxiv.org/pdf/1802.10264.pdf)
+	- Env(sim): 7-DOF grasp objects from a bin(PyBullet)
+	- Task: regular grasping, targeted grasping in clutter
+	- Algorithm: DQN, DDPG
+- H. Zhu, et al., Dexterous Manipulation with Deep Reinforcement Learning: Efficient, General, and Low-Cost, arXiv:1810.06045, 2018. [[Paper]](https://arxiv.org/abs/1810.06045) [[Video]](https://www.youtube.com/watch?v=mpGK4zbdi6g&feature=youtu.be) [[Blog]](https://bair.berkeley.edu/blog/2018/08/31/dexterous-manip/)
+	- Env(real): Dynamixel claw(9-DOF), Allegro hand(16-DOF)
+	- Task: valve rotation, box flipping, door opening
+	- Algorithm: NPG, DAPG(NPG + demonstration)
+- A. R. Mahmood, et al., Benchmarking Reinforcement Learning Algorithms on Real-World Robots, CoRL, 2018. [[Paper]](http://proceedings.mlr.press/v87/mahmood18a/mahmood18a.pdf) [[Video]](https://www.youtube.com/watch?v=ovDfhvjpQd8&feature=youtu.be)
+	- Env(real): A UR5 robotic arm
+	- Task: UR-Reacher-2(reaching), UR-Reacher-6(reaching), DXL-Reacher(reaching), DXL-Tracker(tracking)
+	- Algorithm: TRPO, PPO, DDPG, SQL
+- J. Matas, S. James and A. J Davison, Sim-to-Real Reinforcement Learning for Deformable Object Manipulation, CoRL, 2018. [[Paper]](http://proceedings.mlr.press/v87/matas18a/matas18a.pdf) [[Video]](https://www.youtube.com/watch?v=Dr0RvX1F-YQ&feature=youtu.be)
+	- Env(real): Kinova Mico(7-DOF)
+	- Env(sim): PyBullet gripper(customized)
+	- Task: hanging, diagonal folding, tape folding
+	- Algorithm: DDPG, BC, DDPGfD
+- M. Vecerik, et al., A Practical Approach to Insertion with Variable Socket Position Using Deep Reinforcement Learning, arXiv:1810.01531, 2018. [[Paper]](https://arxiv.org/abs/1810.01531.pdf) [[Video]](https://www.youtube.com/watch?v=oghfmdN8trI&feature=youtu.be)
+	- Env(real): unknown
+	- Task: peg insertion, clip insertion
+	- Algorithm: DDPGfD
+- B. Kang, Z. Jie and J. Feng, Policy Optimization with Demonstrations, PMLR, 2018. [[Paper]](http://proceedings.mlr.press/v80/kang18a/kang18a.pdf)
+	- Env(sim): Reacher
+	- Algorithm: GAIL, TRPO, DQfD, POfD
+- M. Vecerik, et al., Leveraging Demonstrations for Deep Reinforcement Learning on Robotics Problems with Sparse Rewards, arXiv:1707.08817, 2017. [[Paper]](https://arxiv.org/abs/1707.08817) [[Video]](https://www.youtube.com/watch?v=WGJwLfeVN9w)
+	- Env(real): Sawyer
+	- Task: clip insertion, harddrive insertion, clip insertion, cable insertion
+	- Algorithm: DDPG, DDPGfD
+- A. Rajeswaran, et al., Learning Complex Dexterous Manipulation with Deep Reinforcement Learning and Demonstrations, RSS, 2018. [[Paper]](http://www.roboticsproceedings.org/rss14/p49.pdf) [[Video]](https://www.youtube.com/watch?v=jJtBll8l_OM))
+	- Env(sim): ADROIT hand simulator in MuJoCo(24-DOF)
+	- Task: reaching
+	- Algorithm: PPO, CEM, A2C, TRPO, Vanilla PG
+- J. Schulman, et al., Proximal Policy Optimization Algorithms, arXiv:1707.06347, 2017. [[Paper]](https://arxiv.org/abs/1707.06347.pdf) 
+	- Env(sim): Reacher-v1
+	- Task: reaching
+	- Algorithm: PPO, CEM, A2C, TRPO, Vanilla PG
+- Y. Wu, et al., Scalable trust region method for deep reinforcement learning using Kronecker-factored approximation, NeurIPS, 2017. [[Paper]](https://papers.nips.cc/paper/7112-scalable-trust-region-method-for-deep-reinforcement-learning-using-kronecker-factored-approximation.pdf)
+	- Env(sim): Reacher
+	- Task: reaching
+	- Algorithm: TRPO, ACKTR, A2C
+- T. Haarnoja, et al., Composasble Deep Reinforcment Learning for Robotic Manipulation, arXiv:1803.06773, 2018. [[Paper]](https://arxiv.org/abs/1803.06773.pdf) [[Site]](https://sites.google.com/view/composing-real-world-policies/)
+	- Env(real): Sawyer(7-DOF)
+	- Task: pushing, reaching, Lego blockk stacking 
+	- Algorithm: SQL, DDPG, NAF

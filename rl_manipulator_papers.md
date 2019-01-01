@@ -48,7 +48,7 @@
 	- Env(real): Sawyer
 	- Task: clip insertion, harddrive insertion, clip insertion, cable insertion
 	- Algorithm: DDPG, DDPGfD
-- A. Rajeswaran, et al., Learning Complex Dexterous Manipulation with Deep Reinforcement Learning and Demonstrations, RSS, 2018. [[Paper]](http://www.roboticsproceedings.org/rss14/p49.pdf) [[Video]](https://www.youtube.com/watch?v=jJtBll8l_OM))
+- A. Rajeswaran, et al., Learning Complex Dexterous Manipulation with Deep Reinforcement Learning and Demonstrations, RSS, 2018. [[Paper]](http://www.roboticsproceedings.org/rss14/p49.pdf) [[Video]](https://www.youtube.com/watch?v=jJtBll8l_OM)
 	- Env(sim): ADROIT hand simulator in MuJoCo(24-DOF)
 	- Task: reaching
 	- Algorithm: PPO, CEM, A2C, TRPO, Vanilla PG

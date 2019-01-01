@@ -1,7 +1,7 @@
 ## Domain Randomization
 
 ### Physics
-1. OpenAI, Learning Dexterous In-Hand Manipulation, arXiv:1808.00177, 2018. [Paper](https://arxiv.org/pdf/1808.00177.pdf)
+1. OpenAI, Learning Dexterous In-Hand Manipulation, arXiv:1808.00177, 2018. [[Paper]](https://arxiv.org/pdf/1808.00177.pdf)
 
 	|Parameter                       |Scaling factor range   |Additive term range|
 	|--------------------------------|:---------------------:|:-----------------:|
@@ -13,7 +13,7 @@
 	|joint limits                    |                       |$N$(0, 0.15) rad   |
 	|gravity vector (each coordinate)|                       |$N$(0, 0.4) $m/s^2$|
 
-2. X. B. Peng, et al., Sim-to-Real Transfer of Robotic Control with Dynamics Randomization, ICRA, 2018. [Paper](https://xbpeng.github.io/projects/SimToReal/2018_SimToReal.pdf), [OpenAI blog](https://blog.openai.com/generalizing-from-simulation/)
+2. X. B. Peng, et al., Sim-to-Real Transfer of Robotic Control with Dynamics Randomization, ICRA, 2018. [[Paper]](https://xbpeng.github.io/projects/SimToReal/2018_SimToReal.pdf), [[Blog]](https://blog.openai.com/generalizing-from-simulation/)
 
 	|Parameter                 |Range                                    |
 	|--------------------------|:---------------------------------------:|
@@ -26,7 +26,7 @@
 	|Controller Gains          |[0.5, 2] x default gains                 |
 	|Action Timestep $\lambda$ |[125, 1000]$s^{-1}$                      |
 
-3. J. Tan, et al., Sim-to-Real: Learning Agile Locomotion For Quadruped Robots, RSS, 2018. [Paper](http://www.roboticsproceedings.org/rss14/p10.pdf)
+3. J. Tan, et al., Sim-to-Real: Learning Agile Locomotion For Quadruped Robots, RSS, 2018. [[Paper]](http://www.roboticsproceedings.org/rss14/p10.pdf)
 
 	|Parameter        |Lower bound  |Upper bound |
 	|-----------------|:-----------:|:----------:|
@@ -41,10 +41,10 @@
 	|IMU bias         |-0.05 radian |0.05 radian |
 	|IMU noise (std)  |0 radian     |0.05 radian |
 
-4. L. Pinto, et al., Robust Adversarial Reinforcement Learning, PMLR, 2018 [Paper](http://proceedings.mlr.press/v70/pinto17a/pinto17a.pdf)
+4. L. Pinto, et al., Robust Adversarial Reinforcement Learning, PMLR, 2018 [[Paper]](http://proceedings.mlr.press/v70/pinto17a/pinto17a.pdf)
     - Robustness check using trained policy by changing mass, friction.
 
-5. A. Rajeswaran, et al., EPOpt: Leaerning Robust Neural Network Policies Using Model Ensembels, ICLR, 2017 [Paper](https://openreview.net/pdf?id=SyWvgP5el)
+5. A. Rajeswaran, et al., EPOpt: Leaerning Robust Neural Network Policies Using Model Ensembels, ICLR, 2017 [[Paper]](https://openreview.net/pdf?id=SyWvgP5el)
     - Robustness check using trained policy by changing mass, friction.
 
 	|**Hopper**       |$\mu$ |$\sigma$ |low |high |

@@ -64,3 +64,8 @@
 	- Env(real): Sawyer(7-DOF)
 	- Task: pushing, reaching, Lego blockk stacking 
 	- Algorithm: SQL, DDPG, NAF
+- S. Gu, et al., "Deep Reinforcement Learning for Robotic Manipulation with Asynchronous Off-Policy Updates", ICRA, 2017. [[Paper](https://arxiv.org/abs/1610.00633.pdf)] [[Video](https://www.youtube.com/watch?v=ZhsEKTo7V04)]
+	- Env(real): 7-DOF lightweight arm, 6-DOF Kinova JACO arm + 3-DOF fingers 
+	- Env(sim): MuJoCo model(customized)
+	- Task: reaching(7-DOF arm), door pushing and pulling(7-DOF arm), pick and place(JACO)
+	- Algorithm: DDPG, NAF

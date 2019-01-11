@@ -69,3 +69,7 @@
 	- Env(sim): MuJoCo model(customized)
 	- Task: reaching(7-DOF arm), door pushing and pulling(7-DOF arm), pick and place(JACO)
 	- Algorithm: DDPG, NAF
+- A. Nair, et al., "Overcoming Exploration in Reinforcement Learning with Demonstrations", ICRA, 2018. [[Paper](https://arxiv.org/pdf/1709.10089.pdf)] [[Video](https://www.youtube.com/watch?v=RXENnTdg1IQ)]
+	- Env(sim): 7-DOF Fetch Robotics arm 
+	- Task: pushing, sliding, pick-and-place
+	- Algorithm: DDPG + HER, DDPGfD, BC

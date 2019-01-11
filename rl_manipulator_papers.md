@@ -2,7 +2,7 @@
 
 - T. Haarnoja, et al., "Soft Actor-Critic Algorithms and Applications", arXiv:1812.05905, 2018. [[Paper](https://arxiv.org/pdf/1812.05905.pdf)] [[Site](https://sites.google.com/view/sac-and-applications/)]
 	- Env(real): Quadrupedal locomotion, Dexterous hand manipulation
-	- Algorithm: DDPG, TRPO, TD3, PPO
+	- Algorithm: SAC, DDPG, TRPO, TD3, PPO
 - A. R. Mahmood, et al., "Setting up a Reinforcement Learning Task with a Real-World Robot, arXiv:1803.07067", 2018. [[Paper](https://arxiv.org/pdf/1803.07067.pdf)] [[Video](https://www.youtube.com/watch?v=ZVIxt2rt1_4&feature=youtu.be)]
 	- Env(real): UR5 Reacher 6D(6-DOF)
 	- Task: reaching

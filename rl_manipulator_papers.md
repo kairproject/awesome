@@ -20,7 +20,7 @@
 	- Env(real): 7-DOF Fetch Robotics arm
 	- Env(sim): pushing, sliding, pick-and-place
 	- Algorithm: DDPG, DDPG + HER
-- D. Quillen, et al., "Deep Reinforcement Learning for Vision-Based Robotic Grasping: A Simulated Comparative Evaluation of Off-Policy Methods", arXiv:1802.10264, 2018. [[Paper](https://arxiv.org/pdf/1802.10264.pdf)]
+- D. Quillen, et al., "Deep Reinforcement Learning for Vision-Based Robotic Grasping: A Simulated Comparative Evaluation of Off-Policy Methods", arXiv:1802.10264, 2018. [[Paper](https://arxiv.org/pdf/1802.10264.pdf)] [[Video](https://www.youtube.com/watch?v=1wy2jtS5qck)]
 	- Env(sim): 7-DOF grasp objects from a bin(PyBullet)
 	- Task: regular grasping, targeted grasping in clutter
 	- Algorithm: DQN, DDPG
@@ -32,7 +32,7 @@
 	- Env(real): A UR5 robotic arm
 	- Task: UR-Reacher-2(reaching), UR-Reacher-6(reaching), DXL-Reacher(reaching), DXL-Tracker(tracking)
 	- Algorithm: TRPO, PPO, DDPG, SQL
-- J. Matas, S. James and A. J Davison, "Sim-to-Real Reinforcement Learning for Deformable Object Manipulation", CoRL, 2018. [[Paper](http://proceedings.mlr.press/v87/matas18a/matas18a.pdf)] [[Video](https://www.youtube.com/watch?v=Dr0RvX1F-YQ&feature=youtu.be)]]
+- J. Matas, S. James and A. J Davison, "Sim-to-Real Reinforcement Learning for Deformable Object Manipulation", CoRL, 2018. [[Paper](http://proceedings.mlr.press/v87/matas18a/matas18a.pdf)] [[Video](https://www.youtube.com/watch?v=Dr0RvX1F-YQ&feature=youtu.be)]
 	- Env(real): Kinova Mico(7-DOF)
 	- Env(sim): PyBullet gripper(customized)
 	- Task: hanging, diagonal folding, tape folding

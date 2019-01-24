@@ -73,3 +73,8 @@
 	- Env(sim): 7-DOF Fetch Robotics arm 
 	- Task: pushing, sliding, pick-and-place
 	- Algorithm: DDPG + HER, DDPGfD, BC
+- J. Hwangbo, et al., "Learning agile and dynamic motor skills for legged robots", *Science Robotics*, vol 4, Issue 26, eaau5872, Jan. 2019. [[Article](http://robotics.sciencemag.org/content/robotics/4/26/eaau5872.full.pdf)]
+	- Env(real): ANYmal
+	- Env(sim): unknown
+	- Task: command-conditioned, high-speed locomotion, recovery from fall
+	- Algorithm: TRPO
